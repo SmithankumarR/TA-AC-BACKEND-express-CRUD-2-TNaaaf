@@ -35,8 +35,11 @@ a {
   padding: 2rem;
   border: 2px solid ;
   border-radius: 2rem;
-  max-width: 550px;
-  height:50vh;
+  max-width: 750px;
+}
+.comments{
+  padding: 1rem;
+  margin-top: 4rem;
 }
 form h1{
   font-size: 2rem;
