@@ -7,7 +7,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var articleRouter = require('./routes/articles');
-var commentRouter = require('./routes/comment')
+var commentRouter = require('./routes/comments')
 
 //connect to db
 mongoose.connect("mongodb://127.0.0.1:27017/blog", { useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
